@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Idle Game</title>
+</head>
 
+<body>
+
+<h1>Idle Game Prototype</h1>
+
+<p id="counter">0</p>
+
+<button onclick="gain()">Gain Resource</button>
+
+<script>
+let value = 0;
+
+function gain() {
+  value += 1;
+  document.getElementById("counter").innerText = value;
+}
+</script>
+
+</body>
+</html>
