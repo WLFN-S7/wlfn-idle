@@ -1,2 +1,2 @@
-# wlfm-idle
+# wlfn-idle
 Idle-game test
